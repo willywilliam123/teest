@@ -9,5 +9,7 @@ public class Pot {
         this.quantite = quantite;
         numeroPot++;
     }
-    
+    public static int dernierNumero(){
+        return numeroPot;
+    }
 }
